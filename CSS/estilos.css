@@ -93,7 +93,7 @@ nav {
     background-color: var(--color-primario-azul-marino);
 }
 
-nav a {
+nav a  {
     color: var(--color-acento);
     text-decoration: none;
     padding: 10px 15px;
@@ -101,14 +101,16 @@ nav a {
     transition: 0.3s;
 }
 
-nav .principal{
+.principal{
     background-color: var(--color-primario-azul-marino);
 }
 
-nav .eventos{
+.eventos{
     background-color: var(--color-primario-celeste);
 }
-
+.eventos a{
+    color: var(--color-primario-azul-marino)
+}
 nav a:hover {
     background-color: var(--color-acento);
     color: var(--color-primario-azul-marino);
