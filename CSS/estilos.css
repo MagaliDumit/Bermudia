@@ -138,6 +138,12 @@ h3 {
     margin-bottom: 10px;
 }
 
+h4 {
+    font-size: 18px;
+    color: var(--color-primario-celeste);
+    margin-bottom: 6px;
+}
+
 time {
     color: #00588F; 
     font-size: medium;
